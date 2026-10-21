@@ -1,0 +1,29 @@
+name: flutter_thai_hotline_app
+description: Thai Hotline directory — Rajesh Kumar Upadhayay 6819110001.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.11.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+    - assets/images/aboutme/
+    - assets/images/travel/
+    - assets/images/emergency/
+    - assets/images/bank/
+    - assets/images/pubutil/
+  fonts:
+    - family: Kanit
+      fonts:
+        - asset: assets/fonts/Kanit-Regular.ttf
+        - asset: assets/fonts/Kanit-SemiBold.ttf
+          weight: 600
